@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #8953f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+input {
+  height: 200px;
+  border: none;
+  border-radius: 15px;
+  width: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 4vh;
+  padding: 40px;
+  outline: none;
+  transition: all 400ms ease;
+}
+.ig {
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  cursor: pointer;
+}
+.ig img {
+  width: 100px;
+  height: 100px;
+}
+input.active {
+  width: 900px;
+  transition: all 400ms ease;
+}
